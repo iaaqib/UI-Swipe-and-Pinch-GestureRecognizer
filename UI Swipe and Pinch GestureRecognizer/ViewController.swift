@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func swipeImages(sender: UISwipeGestureRecognizer) {
-      //  let images = ["pic9.png", "pic10.png","pic11.png","pic13.png","pic14.png","pic15.png","pic4.png","pic5.png","pic6.png","pic7.png","pic8.png"]
+      
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector("swipeImages:"));
         let rightSwipe = UISwipeGestureRecognizer(target: self, action: Selector("swipeImages:"));
         
